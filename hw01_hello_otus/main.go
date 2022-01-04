@@ -6,8 +6,6 @@ import (
 	"golang.org/x/example/stringutil"
 )
 
-const greeting = "Hello, OTUS!"
-
 func main() {
-	fmt.Print(stringutil.Reverse(greeting))
+	fmt.Print(stringutil.Reverse("Hello, OTUS!"))
 }
